@@ -93,7 +93,7 @@ class AddTransactionActivity : AppCompatActivity() {
                 else if (month < 10)
                     selectedDate = "$year-0${month + 1}-$dayOfMonth"
                 else if (dayOfMonth < 10)
-                    selectedDate = "$year-0${month + 1}-$dayOfMonth"
+                    selectedDate = "$year-${month + 1}-0$dayOfMonth"
                 else
                     selectedDate = "$year-${month + 1}-$dayOfMonth"
 

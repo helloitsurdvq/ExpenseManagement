@@ -16,6 +16,7 @@ import com.ict.expensemanagement.databinding.FragmentDayBinding
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
+import java.util.Locale
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -146,9 +147,9 @@ class DayFragment : Fragment() {
         val budget = binding.budget
         val expense = binding.expense
 
-        balance.text = "$totalAmount vnd"
-        budget.text = "$budgetAmount vnd"
-        expense.text = "$expenseAmount vnd"
+        balance.text = "${"%, .0f".format(Locale.US, totalAmount)} VND"
+        budget.text = "${"%, .0f".format(Locale.US, budgetAmount)} VND"
+        expense.text = "${"%, .0f".format(Locale.US, expenseAmount)} VND"
     }
 
     override fun onResume() {

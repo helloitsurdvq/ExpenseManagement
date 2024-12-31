@@ -90,7 +90,7 @@ dependencies {
     implementation("androidx.work:work-runtime-ktx:2.9.0")
 
     // Firebase
-    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+    implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-firestore")
     implementation("com.google.firebase:firebase-database")

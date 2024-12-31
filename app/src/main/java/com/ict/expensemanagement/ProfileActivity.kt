@@ -10,6 +10,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.ict.expensemanagement.databinding.ActivityProfileBinding
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+import java.util.Locale
 
 class ProfileActivity : AppCompatActivity() {
     private lateinit var binding: ActivityProfileBinding
@@ -47,7 +48,7 @@ class ProfileActivity : AppCompatActivity() {
             runOnUiThread {
                 usernameLayout.text = user.username
                 emailLayout.text = user.email
-                moneyLayout.text = money.toString()
+                moneyLayout.text = "${"%, .0f".format(Locale.US, money)} VND"
             }
         }
 

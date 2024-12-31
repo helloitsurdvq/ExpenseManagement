@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "837078326566",
-    "project_id": "expense-expenditure-management",
-    "storage_bucket": "expense-expenditure-management.appspot.com"
+    "project_number": "253378946469",
+    "project_id": "expensemanagement-f8aff",
+    "storage_bucket": "expensemanagement-f8aff.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:837078326566:android:f49521122b863defbab5e7",
+        "mobilesdk_app_id": "1:253378946469:android:57c5ce589a2885986b344c",
         "android_client_info": {
           "package_name": "com.ict.expensemanagement"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBpdTfSPOP6NOrQKJBpJf6U959190UUUTw"
+          "current_key": "AIzaSyBXWwm1nshJYydK4mU2AvWqiFdj5wBAKmQ"
         }
       ],
       "services": {

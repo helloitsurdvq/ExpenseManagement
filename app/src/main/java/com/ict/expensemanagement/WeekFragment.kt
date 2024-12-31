@@ -163,9 +163,9 @@ class WeekFragment : Fragment() {
         val budget = binding.budget
         val expense = binding.expense
 
-        balance.text = "$totalAmount vnd"
-        budget.text = "$budgetAmount vnd"
-        expense.text = "$expenseAmount vnd"
+        balance.text = "${"%,.0f".format(Locale.US, totalAmount)} VND"
+        budget.text = "${"%, .0f".format(Locale.US, budgetAmount)} VND"
+        expense.text = "${"%, .0f".format(Locale.US, expenseAmount)} VND"
     }
 
     override fun onResume() {

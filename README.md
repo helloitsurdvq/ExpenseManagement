@@ -1,2 +1,18 @@
-# expense-expenditure-management-app
-This is mini project source code for Mobile Application Development course. It's all about Expense/expenditure management app
+# Expense management application
+
+### Features
+* Sign up/Sign in
+* View Transactions
+* Add/Edit Transactions
+* Transactions statistics daily/weekly/monthly
+* User profile
+
+### Installation
+* Kotlin
+* Firebase
+* Main folder project: `app/src/main/java/com/ict/expensemanagement`
+
+### Project setup
+```shelll
+git clone https://github.com/helloitsurdvq/ExpenseManagement.git
+```
